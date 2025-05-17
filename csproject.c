@@ -2154,20 +2154,11 @@ int puzzle() {                              //function to play the game
     char text6[] = "C                        S         1          0        0            2\n";
     char text7[] = "C                        S         1           0      0           2\n";
     char text8[] = "CCCCCCCCCCC     SSSSSSSSSS      1111111          0000           222222222222222\n\n\n\n\n\n";
-    char text9[] = "Rahul Jilowa -- 2301AI18\n";
-    char text10[] = "Juhi Sahni -- 2301CB18\n";
-    char text11[] = "Vanshika Agrawal -- 2301CB45\n";
-    char text12[] = "Tejaswini Pasuparthi -- 2301CT18\n";
-    char text13[] = "Amritansh Rai -- 2301CE33\n";
-    char text14[] = "Gautam Kumar -- 2301CE37\n";
-    char text15[] = "Harshit -- 2301CS18\n";
-    char text16[] = "Sameeksha Thammalla -- 2301CS46\n";
-    char text17[] = "Navyaa Mittal -- 2301EE18\n";
-    char text18[] = "Nishtha Mahesh Pandey -- 2301EC18\n";
+    
 
-    char *texts[] = {text0, text1, text2, text3, text4, text5, text6, text7, text8,text9,text10,text11,text12,text13,text14,text15,text16,text17,text18};
+    char *texts[] = {text0, text1, text2, text3, text4, text5, text6, text7, text8};
     int numLines = sizeof(texts) / sizeof(texts[0]);
-    int textLengths[] = {sizeof(text0) - 1, sizeof(text1) - 1, sizeof(text2) - 1, sizeof(text3) - 1, sizeof(text4) - 1, sizeof(text5) - 1, sizeof(text6) - 1, sizeof(text7) - 1, sizeof(text8) - 1,sizeof(text9) - 1, sizeof(text10) - 1, sizeof(text11) - 1, sizeof(text12) - 1, sizeof(text13) - 1, sizeof(text14) - 1, sizeof(text15) - 1, sizeof(text16) - 1, sizeof(text17) - 1, sizeof(text18) - 1};
+    int textLengths[] = {sizeof(text0) - 1, sizeof(text1) - 1, sizeof(text2) - 1, sizeof(text3) - 1, sizeof(text4) - 1, sizeof(text5) - 1, sizeof(text6) - 1, sizeof(text7) - 1, sizeof(text8) - 1};
 
     for (int i = 0; i < numLines; ++i) {
         // Clear the screen
